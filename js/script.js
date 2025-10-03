@@ -2,6 +2,7 @@ if (window.screen.width <= 1130) {
     function removeall() {
         $(".cir_border").css("border", "none");
     }
+    
     $("#sec").on("click", function () {
         removeall();
         $("#sec").css("border", "2px solid whitesmoke");
