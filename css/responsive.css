@@ -49,7 +49,6 @@
 	 .containerx {
 	  top: 40%;
 	  bottom: 40%;
-    align-items: normal;
 	  transform-style: preserve-3d;
 	}
 
@@ -66,9 +65,9 @@
 		height: 100%;
 	}
 	
-	/* #about-quad {
+	#about-quad {
 		display: none;
-	} */
+	}
 }
 
 @media only screen and (max-width: 850px) {
@@ -104,8 +103,8 @@
   }
   #about_us p {
     width: 70%;
-  } 
-} 
+  }
+}
 
 @media screen and (max-width: 770px) {
   #about_us p {
