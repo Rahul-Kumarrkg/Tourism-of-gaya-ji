@@ -294,13 +294,13 @@ header {
   transform: scale(1.1);
 }
 
-@media(max-width:900px) {
+@media(max-width:950px) {
   .grid {
     grid-template-columns: repeat(2, 1fr)
   }
 }
 
-@media(max-width:600px) {
+@media(max-width:800px) {
   .grid {
     grid-template-columns: 1fr
   }
@@ -758,6 +758,20 @@ b {
   font-family: "Teko", sans-serif;
 }
 
+@media (min-width:768px) {
+  .vis_card{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width:1200px) {
+  .vis_card{
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: auto
+  }
+}
+
+
 /* Vloggers */
 .vloggers {
   display: flex;
@@ -828,6 +842,18 @@ b {
   width: 80%;
 }
 
+@media (min-width:768px) {
+  .oncard{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width:1200px) {
+  .oncard{
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: auto
+  }
+}
 
 /* contact */
 #contact {
