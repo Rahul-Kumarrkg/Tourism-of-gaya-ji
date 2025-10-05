@@ -1,23 +1,23 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: #131010;
-    color: #333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #131010;
+  color: #333;
 }
 
 header {
-    background-color: #86daa9;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid #ddd;
+  background-color: #86daa9;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ddd;
 }
 
 h1 {
-    margin: 0;
-    font-size: 2.5em;
-    font-weight: 300;
-    color: #2c3e50;
+  margin: 0;
+  font-size: 2.5em;
+  font-weight: 300;
+  color: #2c3e50;
 }
 
 
@@ -40,6 +40,7 @@ h1 {
   height: 300px;
   border-radius: 27px;
   width: 100%;
+  margin-bottom: 0
 }
 
 .location-content1 {
@@ -47,17 +48,16 @@ h1 {
   justify-content: space-around;
   flex-wrap: wrap;
   gap: 20px;
-  margin: 25px ;
+  margin: 25px;
 }
 
 .col-content video {
   margin-bottom: 10px;
   height: 350px;
-  /* margin: 12px; */
-  /* padding: 12px; */
   flex: 1 1 250px;
   border-radius: 27px;
   width: 100%;
+  margin-bottom: 0;
 }
 
 .col-content h5 {
@@ -82,8 +82,10 @@ h1 {
 }
 
 .col-content:hover {
-  filter: brightness(120%);
-  transform: scale(1.03);
   cursor: pointer;
-  box-shadow: 2px 2px 8px #6bc08e;
+  transform: translateY(-7.5px);
+  transform: translatex(-6.5px);
+  transition: background-color 0.5s ease, transform 1s ease,
+  border-bottom 0.5s ease 0.2s;
+  box-shadow: 6px 6px 13px rgb(255, 0, 0);
 }
