@@ -294,13 +294,13 @@ header {
   transform: scale(1.1);
 }
 
-@media(max-width:950px) {
+@media(max-width:900px) {
   .grid {
     grid-template-columns: repeat(2, 1fr)
   }
 }
 
-@media(max-width:800px) {
+@media(max-width:600px) {
   .grid {
     grid-template-columns: 1fr
   }
@@ -479,7 +479,7 @@ section {
 .image1:hover {
   cursor: pointer;
   background-color: #fa23c4;
-  border-bottom: 5px solid #66bb8c;
+  border-bottom: 5px solid #72078d;
   color: #fff;
   transform: translateY(-7.5px);
   transform: translatex(-7.5px);
@@ -540,7 +540,7 @@ section {
 .grid-item:hover {
   cursor: pointer;
   background-color: #120924;
-  border-bottom: 5px solid #66bb8c;
+  border-bottom: 5px solid #eb9617;
   color: #fff;
   transform: translateY(-7.5px);
   transform: translatex(-7.5px);
@@ -728,7 +728,7 @@ b {
 .vis_card:hover {
   cursor: pointer;
   background-color: #1f025a;
-  border-bottom: 5px solid #66bb8c;
+  border-bottom: 5px solid #eb9617;
   color: #fff;
   transform: translateY(-7.5px);
   transform: translatex(-7.5px);
@@ -757,20 +757,6 @@ b {
   font-size: 17px;
   font-family: "Teko", sans-serif;
 }
-
-@media (min-width:768px) {
-  .vis_card{
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width:1200px) {
-  .vis_card{
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: auto
-  }
-}
-
 
 /* Vloggers */
 .vloggers {
@@ -802,13 +788,13 @@ b {
 
 .concard:hover {
   background-color: #fb036b;
-  border-bottom: 5px solid #66bb8c;
+  border-bottom: 5px solid #eb9617;
   color: #fff;
   transform: translateY(-7.5px);
   transform: translatex(-7.5px);
   transition: background-color 0.5s ease, transform 1s ease,
     border-bottom 0.5s ease 0.2s;
-  box-shadow: 12px 12px 20px red;
+  box-shadow: 8px 8px 15px rgb(255, 0, 0);
 }
 
 .concard .pfp {
@@ -842,18 +828,6 @@ b {
   width: 80%;
 }
 
-@media (min-width:768px) {
-  .oncard{
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-@media (min-width:1200px) {
-  .oncard{
-    grid-template-columns: repeat(4, 1fr);
-    margin-top: auto
-  }
-}
 
 /* contact */
 #contact {
